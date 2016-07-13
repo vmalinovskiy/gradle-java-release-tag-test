@@ -1,0 +1,66 @@
+{
+  "items": [
+    {
+      "resource": "MonthlyRenewal",
+      "supportedEvents": [
+        "Finished",
+        "Failed"
+      ]
+    },
+    {
+      "resource": "LowBalance",
+      "supportedEvents": [
+        "Finished",
+        "Failed"
+      ]
+    },
+    {
+      "resource": "CccCampaign",
+      "supportedEvents": [
+        "Started",
+        "Stopped",
+        "Finished"
+      ]
+    },
+      {
+      "resource": "CallBroadcast",
+      "supportedEvents": [
+        "Started",
+        "Stopped",
+        "Finished"
+      ]
+    },
+    {
+      "resource": "TextBroadcast",
+      "supportedEvents": [
+        "Started",
+        "Stopped",
+        "Finished"
+      ]
+    },
+    {
+      "resource": "OutboundCall",
+      "supportedEvents": [
+        "Finished"
+      ]
+    },
+    {
+      "resource": "InboundCall",
+      "supportedEvents": [
+        "Finished"
+      ]
+    },
+    {
+      "resource": "OutboundText",
+      "supportedEvents": [
+        "Finished"
+      ]
+    },
+    {
+      "resource": "InboundText",
+      "supportedEvents": [
+        "Finished"
+      ]
+    }
+  ]
+}

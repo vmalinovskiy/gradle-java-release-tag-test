@@ -1,0 +1,9 @@
+{
+  "name": "API hook",
+  "resource": "TextBroadcast",
+  "callback": "http://cool.site.xyz/webhook",
+  "events": [
+    "Started",
+    "Stopped"
+  ]
+}
